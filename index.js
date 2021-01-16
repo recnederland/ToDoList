@@ -66,4 +66,3 @@ if(port == "" || port == null){
 app.listen(port, function(){
   console.log("port numarasi : " + port);
 });
-app.listen(5000);
