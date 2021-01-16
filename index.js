@@ -40,7 +40,7 @@ app.get("/", function(req, res) {
         res.render("anasayfa", {  gorevler : gelenVeriler });
       }
     });
-});
+}); 
 app.post("/ekle", function(req, res){
   var gelenAciklama = req.body.gorevAciklama;
   var gorev = new Gorev(
